@@ -1,0 +1,25 @@
+.dark-theme {
+    transition: all 0.5s;
+
+    --red: #EC3750;
+    --orange: #FF8C37;
+    --primary: var(--red);
+    --secondary: white;
+    --black: black;
+    --dark-gray: #161616;
+    --gray: #2a2a2a;
+    --primary-linear: linear-gradient(0deg, var(--red) 0%, var(--orange) 100%);
+}
+
+.light-theme {
+    transition: all 0.5s;
+
+    --red: #EC3750;
+    --orange: #FF8C37;
+    --primary: var(--red);
+    --secondary: black;
+    --black: white;
+    --dark-gray: #161616;
+    --gray: #F5F5F5;
+    --primary-linear: linear-gradient(0deg, var(--red) 0%, var(--orange) 100%);
+}

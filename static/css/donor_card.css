@@ -1,0 +1,55 @@
+.donor-card .donor-text p {
+    font-family: 'Phantom Sans', sans-serif;
+    font-size: 20px;
+    color: var(--secondary);
+    margin: 0;
+    opacity: 0.6;
+    transition: 1s;
+}
+
+.donor-card {
+    display: block;
+    user-select: none;
+    text-align: center;
+    transition: .3s;
+}
+
+.donor-card:hover {
+    scale: 1.1;
+    transition: .2s;
+}
+
+.donor-card:hover .donor-text p {
+    opacity: .9;
+    transition: .3s;
+}
+
+.donor-card .donor-icon img {
+    width: 96px;
+    height: 96px;
+    margin-bottom: 10px;
+}
+
+.donor-card-container {
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .donor-card {
+        margin-top: 20px;
+    }
+
+    .donor-card .donor-text p {
+        font-size: 16px;
+    }
+
+    .donor-card .donor-icon img {
+        width: 64px;
+        height: 64px;
+    }
+
+    .donor-card-container {
+        margin-top: 40px;
+    }
+}

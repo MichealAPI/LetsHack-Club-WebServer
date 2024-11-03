@@ -1,0 +1,14 @@
+.dark-mode-switch i {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.dark-mode-switch {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1000;
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 0.5;
+}

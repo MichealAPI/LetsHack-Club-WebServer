@@ -1,0 +1,53 @@
+
+.register {
+    margin-top: 168px;
+}
+
+.register form .email input[type="email"] {
+    opacity: .8;
+    width: 400px;
+    padding-left: 16px;
+    margin-right: 16px;
+}
+
+.register form .email input[type="email"]::placeholder {
+    color: var(--dark-gray);
+    opacity: .5;
+}
+
+.register form .email input[type="email"]:focus {
+    outline: none;
+}
+
+.register form .register-button button {
+    background: var(--primary-linear);
+    font-weight: bold;
+    outline: none;
+    border: none;
+    color: var(--secondary);
+    width: 200px;
+}
+
+.register form .email input[type="email"],
+.register form .register-button button {
+    border-radius: 18px;
+    font-family: 'Phantom Sans', sans-serif;
+    font-size: 24px;
+    height: 70px;
+}
+
+@media screen and (max-width: 768px) {
+    .register form .email input[type="email"] {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+
+    .register form .register-button button {
+        width: 100%;
+    }
+
+    .register {
+        margin-top: 100px;
+    }
+}

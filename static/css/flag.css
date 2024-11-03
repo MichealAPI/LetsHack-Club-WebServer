@@ -1,0 +1,19 @@
+.flag {
+    position: fixed;
+    top: 20px;
+    z-index: 1000;
+}
+
+.flag img {
+    width: 150px;
+    transition: 0.1s;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.flag img:hover {
+    cursor: pointer;
+    scale: 1.01;
+    transition: 0.1s;
+}
+

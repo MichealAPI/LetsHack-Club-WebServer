@@ -1,0 +1,22 @@
+
+.informative {
+    margin-top: 60px;
+}
+
+.informative p {
+    text-align: center;
+    font-family: 'Phantom Sans', sans-serif;
+    font-size: 26px;
+    color: var(--secondary);
+    max-width: 700px;
+}
+
+@media screen and (max-width: 768px) {
+    .informative {
+        margin-top: 40px;
+    }
+
+    .informative p {
+        font-size: 18px;
+    }
+}

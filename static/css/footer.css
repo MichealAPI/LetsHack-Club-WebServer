@@ -1,0 +1,13 @@
+.footer {
+    background-color: var(--red);
+    color: var(--secondary);
+    display: flex;
+    justify-content: center;
+    height: 160px;
+}
+
+.footer p {
+    color: var(--secondary);
+    font-family: 'Phantom Sans', "sans-serif";
+    font-size: 18px;
+}

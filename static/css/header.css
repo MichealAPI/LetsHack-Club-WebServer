@@ -1,0 +1,74 @@
+.club-title {
+    margin-top: 140px;
+    user-select: none;
+}
+
+.club-title .title h1 {
+    font-family: 'Phantom Sans', sans-serif;
+    font-weight: bold;
+    font-size: 148px;
+    margin-bottom: 0;
+    color: var(--secondary);
+    display: inline;
+}
+
+.club-title .subtitle h2 {
+    font-family: 'Phantom Sans', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: var(--secondary);
+    margin-top: 0;
+}
+
+.club-title .title .extension {
+    display: inline;
+}
+
+.club-title .title .extension h2 {
+    font-family: 'Phantom Sans', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    display: inline;
+    background: var(--primary-linear);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.club-title {
+    justify-content: center;
+    text-align: center;
+    animation: zoom 5s infinite;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.02);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .club-title {
+        margin-top: 100px;
+    }
+
+    .club-title .title h1 {
+        font-size: 64px;
+    }
+
+    .club-title .subtitle h2 {
+        font-size: 28px;
+    }
+
+    .club-title .title .extension h2 {
+        font-size: 32px;
+    }
+}

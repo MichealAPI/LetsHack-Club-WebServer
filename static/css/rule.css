@@ -1,0 +1,36 @@
+.rule .number h1 {
+    font-size: 128px;
+    font-family: "Black Han Sans", sans-serif;
+    -webkit-text-stroke-width: 6.5px;
+    -webkit-text-stroke-color: var(--orange);
+    color: var(--gray);
+    user-select: none;
+}
+
+.rule .description p {
+    font-family: 'Phantom Sans', sans-serif;
+    font-size: 24px;
+    color: var(--secondary);
+    max-width: 900px;
+}
+
+.rule {
+    margin-top: 60px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .rule .number h1 {
+        font-size: 64px;
+        -webkit-text-stroke-width: 3.25px;
+        text-align: center;
+    }
+
+    .rule {
+        margin-top: 40px;
+    }
+
+    .rule .description p {
+        font-size: 18px;
+    }
+}
