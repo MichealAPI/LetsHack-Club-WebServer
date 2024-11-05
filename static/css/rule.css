@@ -2,7 +2,7 @@
     font-size: 128px;
     font-family: "Black Han Sans", sans-serif;
     -webkit-text-stroke-width: 6.5px;
-    -webkit-text-stroke-color: var(--orange);
+    -webkit-text-stroke-color: var(--salmon);
     color: var(--gray);
     user-select: none;
 }

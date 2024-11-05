@@ -8,6 +8,7 @@
     --black: black;
     --dark-gray: #161616;
     --gray: #2a2a2a;
+    --salmon: #f35647;
     --primary-linear: linear-gradient(0deg, var(--red) 0%, var(--orange) 100%);
 }
 
@@ -21,5 +22,6 @@
     --black: white;
     --dark-gray: #161616;
     --gray: #F5F5F5;
+    --salmon: #f35647;
     --primary-linear: linear-gradient(0deg, var(--red) 0%, var(--orange) 100%);
 }
