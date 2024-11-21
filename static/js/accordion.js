@@ -9,7 +9,7 @@ const faqData = [
     },
     {
         question: "When and where will the hackathon take place?",
-        answer: "The event is scheduled for October 5th and will be held in person at Panetti Pitagora High School, located at Via Giuseppe Re David 186, Bari, BA. It will run from 8:00 AM to 4:00 PM."
+        answer: "The event is scheduled for December 16th and will be held in person at Panetti Pitagora High School, located at Via Giuseppe Re David 186, Bari, BA. It will run from 8:00 AM to 4:00 PM."
     },
     {
         question: "What can participants expect from the event structure?",
