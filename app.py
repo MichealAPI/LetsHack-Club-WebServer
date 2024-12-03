@@ -19,6 +19,7 @@ def landing():
 @app.route("/submit", methods=['POST'])
 def submit():
     email: str = request.form['emailInput'].lower()
+    notes: str = request.form['notesInput']
     date_now: str = datetime.now().strftime('%d-%m-%Y %H:%M:%S.%f')
 
     if not email.endswith('@panettipitagora.edu.it'):
@@ -29,6 +30,7 @@ def submit():
 
     mongo.db.users.insert_one({
         'email': email,
+        'notes': notes,
         "current_date": date_now
     })
 

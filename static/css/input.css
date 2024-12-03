@@ -1,8 +1,28 @@
 
 .register {
-    margin-top: 168px;
+    margin-top: 148px;
 }
 
+/** Register Form **/
+
+/** Notes **/
+.register form .notes input[type="text"] {
+    opacity: .8;
+    width: 400px;
+    padding-left: 16px;
+    margin-top: 16px;
+}
+
+.register form .notes input[type="text"]::placeholder {
+    color: var(--dark-gray);
+    opacity: .5;
+}
+
+.register form .notes input[type="text"]:focus {
+    outline: none;
+}
+
+/** Email **/
 .register form .email input[type="email"] {
     opacity: .8;
     width: 400px;
@@ -19,6 +39,7 @@
     outline: none;
 }
 
+/** Register Button **/
 .register form .register-button button {
     background: var(--primary-linear);
     font-weight: bold;
@@ -29,7 +50,8 @@
 }
 
 .register form .email input[type="email"],
-.register form .register-button button {
+.register form .register-button button,
+.register form .notes input[type="text"] {
     border-radius: 18px;
     font-family: 'Phantom Sans', sans-serif;
     font-size: 24px;
