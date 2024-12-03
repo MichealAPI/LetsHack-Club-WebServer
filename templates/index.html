@@ -63,17 +63,21 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="register">
-                                            <form action="/submit" method="POST" id="registerForm">
-                                                <div class="email d-inline">
-                                                    <label for="emailInput"></label>
-                                                    <input type="email" name="emailInput" id="emailInput" aria-describedby="emailHelp" placeholder="Enter email">
+                                            <form action="/submit" method="POST" id="registerForm" class="d-flex flex-column">
+
+                                                <div class="order-2 order-md-1">
+                                                    <div class="email d-inline">
+                                                        <label for="emailInput"></label>
+                                                        <input type="email" name="emailInput" id="emailInput" aria-describedby="emailHelp" placeholder="Enter email">
+                                                    </div>
+
+                                                    <div class="register-button d-inline">
+                                                        <button type="submit" id="submitButton" class="d-inline">I'm in!</button>
+                                                    </div>
                                                 </div>
 
-                                                <div class="register-button d-inline" >
-                                                    <button type="submit" id="submitButton" class="d-inline">I'm in!</button>
-                                                </div>
 
-                                                <div class="notes">
+                                                <div class="notes order-1 order-md-2">
                                                     <label for="notesInput"></label>
                                                     <input type="text" name="notesInput" id="notesInput" placeholder="Notes (optional)">
                                                 </div>
